@@ -1,0 +1,623 @@
+2015-09-07 06:23:25 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'yii\web\Request::cookieValidationKey must be configured with a secret key.' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php:1219
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php(1201): yii\web\Request->loadCookies()
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php(1287): yii\web\Request->getCookies()
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php(1266): yii\web\Request->loadCsrfToken()
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/helpers/BaseHtml.php(286): yii\web\Request->getCsrfToken()
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/X...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/Applications/X...', Array, Object(app\controllers\SiteController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/proj_001/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2015-09-07 06:23:25 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'UNIQUE_ID' => 'Ve0RPMCoAXQAAAZppXoAAAAA'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '58681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1441599804.997
+    'REQUEST_TIME' => 1441599804
+]
+2015-09-07 06:23:26 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php:58
+
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(58): serialize(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#6 {main}
+2015-09-07 06:23:25 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'UNIQUE_ID' => 'Ve0RPMCoAXQAAAZppXoAAAAA'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '58681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1441599804.997
+    'REQUEST_TIME' => 1441599804
+]
+2015-09-07 06:29:17 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'yii\web\Request::cookieValidationKey must be configured with a secret key.' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php:1219
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php(1201): yii\web\Request->loadCookies()
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php(1287): yii\web\Request->getCookies()
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Request.php(1266): yii\web\Request->loadCsrfToken()
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/helpers/BaseHtml.php(286): yii\web\Request->getCsrfToken()
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/X...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/Applications/X...', Array, Object(app\controllers\SiteController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/proj_001/controllers/SiteController.php(52): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2015-09-07 06:29:17 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'UNIQUE_ID' => 'Ve0SnMCoAXQAAAZsaDEAAAAD'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '59916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1441600156.991
+    'REQUEST_TIME' => 1441600156
+]
+2015-09-07 06:29:17 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php:58
+
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(58): serialize(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#6 {main}
+2015-09-07 06:29:17 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'UNIQUE_ID' => 'Ve0SnMCoAXQAAAZsaDEAAAAD'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '59916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1441600156.991
+    'REQUEST_TIME' => 1441600156
+]
+2015-09-08 01:38:19 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/site/say.php:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-08 01:38:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'Poewer  rerwer'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4f68CoAXQAAAZAhiIAAAAI'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '51927'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/say&message=Poewer++rerwer'
+    'REQUEST_URI' => '/?r=site/say&message=Poewer++rerwer'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441669099.652
+    'REQUEST_TIME' => 1441669099
+]
+2015-09-08 01:38:33 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/site/say.php:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-08 01:38:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'Poewer rerwer'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4f@cCoAXQAAAX-WKwAAAAE'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '51933'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/say&message=Poewer+rerwer'
+    'REQUEST_URI' => '/?r=site/say&message=Poewer+rerwer'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441669113.424
+    'REQUEST_TIME' => 1441669113
+]
+2015-09-08 01:39:04 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/site/say.php:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-08 01:39:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'Poewer rerwer'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4gGMCoAXQAAAZCAzkAAAAK'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '51938'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/say&message=Poewer+rerwer'
+    'REQUEST_URI' => '/?r=site/say&message=Poewer+rerwer'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441669144.705
+    'REQUEST_TIME' => 1441669144
+]
+2015-09-08 02:02:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\EntryForm' not found' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/controllers/SiteController.php:104
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-08 02:02:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+    'PHPSESSID' => 'n03pnng83ss6bnq47hukinb3l6'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4lj8CoAXQAAAX9UKcAAAAC'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D; PHPSESSID=n03pnng83ss6bnq47hukinb3l6'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '52031'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441670543.326
+    'REQUEST_TIME' => 1441670543
+]
+2015-09-08 02:48:01 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\web\UrlManager::urlFormat' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/BaseYii.php(518): yii\base\Component->__set('urlFormat', 'path')
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\web\UrlManager), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/di/Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#8 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/Module.php(132): yii\base\Application->getUrlManager()
+#9 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#10 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#11 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#12 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#13 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->__construct(Array)
+#15 {main}
+2015-09-08 02:48:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+    'PHPSESSID' => '4cpe4af38gisdelh17ot0oq961'
+    '_identity' => '1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4wQcCoAXQAAAX@wTIAAAAD'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D; PHPSESSID=4cpe4af38gisdelh17ot0oq961; _identity=1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '52236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441673281.673
+    'REQUEST_TIME' => 1441673281
+]
+2015-09-08 02:48:01 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php:58
+
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(58): serialize(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#6 {main}
+2015-09-08 02:48:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+    'PHPSESSID' => '4cpe4af38gisdelh17ot0oq961'
+    '_identity' => '1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4wQcCoAXQAAAX@wTIAAAAD'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D; PHPSESSID=4cpe4af38gisdelh17ot0oq961; _identity=1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '52236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441673281.673
+    'REQUEST_TIME' => 1441673281
+]
+2015-09-08 02:49:41 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\web\UrlManager::enablePrettyUrls' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/BaseYii.php(518): yii\base\Component->__set('enablePrettyUrl...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\web\UrlManager), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/di/Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('yii\\web\\UrlMana...', Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\UrlMana...', Array, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(563): yii\di\ServiceLocator->get('urlManager')
+#8 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/Module.php(132): yii\base\Application->getUrlManager()
+#9 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(315): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#10 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#11 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#12 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#13 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->__construct(Array)
+#15 {main}
+2015-09-08 02:49:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+    'PHPSESSID' => '4cpe4af38gisdelh17ot0oq961'
+    '_identity' => '1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4wpcCoAXQAAAZCAzwAAAAK'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D; PHPSESSID=4cpe4af38gisdelh17ot0oq961; _identity=1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '52265'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441673381.766
+    'REQUEST_TIME' => 1441673381
+]
+2015-09-08 02:49:41 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php:58
+
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(58): serialize(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#6 {main}
+2015-09-08 02:49:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"exNlPQVjlXltkur97yDVRFc6YSJkIvIn\";}'
+    'PHPSESSID' => '4cpe4af38gisdelh17ot0oq961'
+    '_identity' => '1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Ve4wpcCoAXQAAAZCAzwAAAAK'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=d48fb0f98f31e97d0320f393b0161b5b2b3f9a8656256cda5972b45aa996076ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22exNlPQVjlXltkur97yDVRFc6YSJkIvIn%22%3B%7D; PHPSESSID=4cpe4af38gisdelh17ot0oq961; _identity=1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '52265'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441673381.766
+    'REQUEST_TIME' => 1441673381
+]
