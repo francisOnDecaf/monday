@@ -621,3 +621,411 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1441673381.766
     'REQUEST_TIME' => 1441673381
 ]
+2015-09-17 02:40:15 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function registerAssetBundle() on string' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/AssetBundle.php:119
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-17 02:40:14 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][info][application] $_COOKIE = [
+    '_csrf' => '0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn\";}'
+    'PHPSESSID' => 'ijcgcd2tphts9uaacbn4kjo3f5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VfoL7sCoAXkAAAr1gwsAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VfoL7sCoAXkAAAr1gwsAAAAH'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/site/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn%22%3B%7D; PHPSESSID=ijcgcd2tphts9uaacbn4kjo3f5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '56321'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1442450414.682
+    'REQUEST_TIME' => 1442450414
+]
+2015-09-17 02:43:14 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function registerAssetBundle() on string' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/AssetBundle.php:119
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-17 02:43:14 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][info][application] $_COOKIE = [
+    '_csrf' => '0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn\";}'
+    'PHPSESSID' => 'ijcgcd2tphts9uaacbn4kjo3f5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VfoMosCoAXkAAAQ3jOkAAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VfoMosCoAXkAAAQ3jOkAAAAK'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/site/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn%22%3B%7D; PHPSESSID=ijcgcd2tphts9uaacbn4kjo3f5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '56816'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1442450594.923
+    'REQUEST_TIME' => 1442450594
+]
+2015-09-17 02:44:20 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method app\assets\AppAsset::cssFile()' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/layouts/login.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-17 02:44:20 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][info][application] $_COOKIE = [
+    '_csrf' => '0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn\";}'
+    'PHPSESSID' => 'ijcgcd2tphts9uaacbn4kjo3f5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VfoM5MCoAXkAAAQ2CyQAAAAJ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VfoM5MCoAXkAAAQ2CyQAAAAJ'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/site/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn%22%3B%7D; PHPSESSID=ijcgcd2tphts9uaacbn4kjo3f5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '57019'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1442450660.722
+    'REQUEST_TIME' => 1442450660
+]
+2015-09-17 02:52:38 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/images/log...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-09-17 02:52:38 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][info][application] $_COOKIE = [
+    '_csrf' => '0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn\";}'
+    'PHPSESSID' => 'ijcgcd2tphts9uaacbn4kjo3f5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VfoO1sCoAXkAAAyRa-QAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VfoO1sCoAXkAAAyRa-QAAAAB'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn%22%3B%7D; PHPSESSID=ijcgcd2tphts9uaacbn4kjo3f5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '58559'
+    'REDIRECT_URL' => '/site/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1442451158.611
+    'REQUEST_TIME' => 1442451158
+]
+2015-09-17 02:55:45 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/layouts/login.php:37
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/views/layouts/login.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/X...', 37, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/Applications/X...', Array, Object(app\controllers\SiteController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/proj_001/controllers/SiteController.php(70): yii\base\Controller->render('login', Array)
+#6 [internal function]: app\controllers\SiteController->actionLogin()
+#7 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/login', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2015-09-17 02:55:44 [127.0.0.1][-][ijcgcd2tphts9uaacbn4kjo3f5][info][application] $_COOKIE = [
+    '_csrf' => '0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn\";}'
+    'PHPSESSID' => 'ijcgcd2tphts9uaacbn4kjo3f5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VfoPkMCoAXkAAAvc@F0AAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VfoPkMCoAXkAAAvc@F0AAAAA'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_REFERER' => 'http://proj_001.dev/site/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn%22%3B%7D; PHPSESSID=ijcgcd2tphts9uaacbn4kjo3f5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '59068'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1442451344.748
+    'REQUEST_TIME' => 1442451344
+]
+2015-09-17 03:27:30 [127.0.0.1][100][uq0hb96uj4nfu4vcbqrkctda82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/index".' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-09-17 03:27:30 [127.0.0.1][100][uq0hb96uj4nfu4vcbqrkctda82][info][application] $_COOKIE = [
+    '_csrf' => '0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn\";}'
+    'PHPSESSID' => 'uq0hb96uj4nfu4vcbqrkctda82'
+    '_identity' => '1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VfoXAsCoAXkAABuk@RQAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VfoXAsCoAXkAABuk@RQAAAAA'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn%22%3B%7D; PHPSESSID=uq0hb96uj4nfu4vcbqrkctda82; _identity=1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '62996'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1442453250.49
+    'REQUEST_TIME' => 1442453250
+]
+2015-09-17 03:27:41 [127.0.0.1][100][uq0hb96uj4nfu4vcbqrkctda82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/index".' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/proj_001/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/proj_001/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-09-17 03:27:41 [127.0.0.1][100][uq0hb96uj4nfu4vcbqrkctda82][info][application] $_COOKIE = [
+    '_csrf' => '0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn\";}'
+    'PHPSESSID' => 'uq0hb96uj4nfu4vcbqrkctda82'
+    '_identity' => '1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VfoXDcCoAXkAABh0xTUAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VfoXDcCoAXkAABh0xTUAAAAH'
+    'HTTP_HOST' => 'proj_001.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=0bd62c96699ace5ca9713992f0b1d89c38e183fc038e0f913876ae9549e8a0aba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mEYYsrBjZQnwlZzx2cZmMDIul_-itKnn%22%3B%7D; PHPSESSID=uq0hb96uj4nfu4vcbqrkctda82; _identity=1639fe327c007f438899bde292374ea4a588336cd468a5d3e8ba3aabbb59ebd8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Unix) OpenSSL/1.0.1p PHP/5.6.11 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'proj_001.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/htdocs/proj_001/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/htdocs/proj_001/web/index.php'
+    'REMOTE_PORT' => '63020'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1442453261.937
+    'REQUEST_TIME' => 1442453261
+]

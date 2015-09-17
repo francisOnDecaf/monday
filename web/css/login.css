@@ -1,0 +1,16 @@
+body#body_login {
+	background: #ccc;
+}
+
+.logo-login {
+	display: block;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+
+#login-form {
+	padding: 20px 10px 5px;
+	margin: 50px;
+	background: #999;
+	border-radius: 5px;
+}
