@@ -55,8 +55,10 @@ class SiteController extends Controller
 
     public function actionLogin()
     {
-        if (!\Yii::$app->user->isGuest) {
-            return $this->goHome();
+        $this->layout = 'login';
+
+        if (!Yii::$app->user->isGuest) {
+            return $this->redirect('/site/index');
         }
 
         $model = new LoginForm();
@@ -73,47 +75,5 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
-    }
-
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
-
-    public function actionAbout()
-    {
-        return $this->render('about');
-    }
-
-    public function actionSay($message='Hello')
-    {
-        return $this->render('say', [
-            'message' => $message,
-        ]);
-    }
-
-    public function actionEntry()
-    {
-        $model = new EntryForm();
-
-        if($model->load(Yii::$app->request->post()) && $model->validate()){
-            return $this->render('entry-confirm', [
-                'model' => $model,    
-            ]);
-        } else {
-            return $this->render('entry', [
-                'model' => $model,
-            ]);
-        }
-
-
     }
 }
