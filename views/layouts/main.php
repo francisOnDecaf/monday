@@ -30,7 +30,7 @@ AppAsset::register($this);
         'brandLabel' => 'Monday',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'navbar-inverse navbar-fixed-left',
         ],
     ]);
     echo Nav::widget([
