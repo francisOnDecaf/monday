@@ -93,3 +93,42 @@ a.desc:after {
 .align-center {
     text-align: center;
 }
+
+.p-all {
+    padding: 10px;
+}
+
+/* Font Sizes */
+   
+    .text20 {
+        font-size: 20px;
+    }
+
+    .text30 {
+        font-size: 30px;
+    }
+
+/* Finance Styles */
+
+    .main-green {
+        background: #007e40;
+        color: #fff;
+    }
+
+    .secondary-green {
+        background: #a0dfbf;
+        color: #fff;
+    }
+
+    .tertiary-green {
+        background: #008a55;
+        color: #fff;
+    }
+
+    #finance-table tr td,
+    #finance-table tr th {
+        padding: 10px;
+        border: 2px solid #333;
+    }
+
+
