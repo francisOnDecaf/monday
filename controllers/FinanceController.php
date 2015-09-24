@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use Yii;
 use yii\web\Controller;
 use yii\data\Pagination;
 use app\models\Finance;
@@ -14,6 +15,14 @@ class FinanceController extends Controller
      */
     public function actionIndex()
     {
+        $model = new Finance();
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) 
+        {            
+            $model->created_on = date('Y-m-d H:i:s');            
+            $model->save();
+        }
+        
         $query = Finance::find();
 
         $pagination = new Pagination([
@@ -25,10 +34,13 @@ class FinanceController extends Controller
             ->offset($pagination->offset)
             ->limit($pagination->limit)
             ->all();
+       
 
         return $this->render('index', [
+            'model' => $model,
             'finances' => $finances,
             'pagination' => $pagination,
         ]);
     }
+
 }
